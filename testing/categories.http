@@ -1,0 +1,6 @@
+
+### -------- get categories
+GET http://localhost:3000/categories HTTP/1.1
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJhJDEwJG9KR1dBTk50TDVQQ0pYRzZTLkFWNy5uRW45YlJQUXBDUjZvYU5YMTh6VGEyamkzM0x5OGc2IiwiaWF0IjoxNjk4MzM2OTI2fQ.G5DcPxi48UVCLZr05VB2q_UbsuYLmzcSBkfg3AN2TqA
+

@@ -1,0 +1,14 @@
+### -------- Get Products
+GET http://localhost:3000/products HTTP/1.1
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJhJDEwJG9KR1dBTk50TDVQQ0pYRzZTLkFWNy5uRW45YlJQUXBDUjZvYU5YMTh6VGEyamkzM0x5OGc2IiwiaWF0IjoxNjk4MzM2OTI2fQ.G5DcPxi48UVCLZr05VB2q_UbsuYLmzcSBkfg3AN2TqA
+
+### -------- Get Product by Product Id
+GET http://localhost:3000/products/3 HTTP/1.1
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJhJDEwJG9KR1dBTk50TDVQQ0pYRzZTLkFWNy5uRW45YlJQUXBDUjZvYU5YMTh6VGEyamkzM0x5OGc2IiwiaWF0IjoxNjk4MzM2OTI2fQ.G5DcPxi48UVCLZr05VB2q_UbsuYLmzcSBkfg3AN2TqA
+
+
+### -------- get product's picture
+GET http://localhost:3000/products/picture/2 HTTP/1.1
+Content-Type: multipart/form-data; boundary=boundary
